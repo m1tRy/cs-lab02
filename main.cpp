@@ -11,6 +11,11 @@ int main()
          << "A - B = " << a - b << '\n'
 	     << "A * B = " << a * b << '\n'
          << "A / B = " << a / b << '\n';
-
+    if (a < b) {
+        cout << "The smallest digit A = " << a;
+    }
+    else {
+        cout << "The smallest digit B = " << b;
+    }
     return 0;
 }
